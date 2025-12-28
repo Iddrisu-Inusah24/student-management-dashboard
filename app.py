@@ -136,4 +136,3 @@ elif page == "About":
 
 st.sidebar.markdown("---")
 st.sidebar.caption("Version 1.0 • Student Management Dashboard")
-git status
