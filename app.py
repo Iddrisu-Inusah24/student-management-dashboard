@@ -134,5 +134,16 @@ elif page == "About":
     **Built for learning and real-world practice.**
     """)
 
+
+
+
+
+    st.markdown(
+    "<h3 style='color:orange; border-bottom:2px solid #ccc;'>Developed By Iddrisu Inusah Adelga (Impact)</h3>",
+    unsafe_allow_html=True
+    )
+
+
+
 st.sidebar.markdown("---")
 st.sidebar.caption("Version 1.0 • Student Management Dashboard")
