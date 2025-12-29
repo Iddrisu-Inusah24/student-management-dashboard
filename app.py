@@ -26,7 +26,7 @@ page = st.sidebar.radio(
 
 
 if page == "Home":
-    st.title("🎓 Student Registration System")
+    st.markdown("---")
 
     total = len(st.session_state["student"])
     st.metric("Total Students", total)
