@@ -18,7 +18,7 @@ if "counter" not in st.session_state:
     st.session_state.counter = 1
 
 
-st.sidebar.markdown("<h3 style='color:yellow'> Student System </h3>", unsafe_allow_html=True)
+st.sidebar.markdown("<h3 style='color:yellow'> Student Registration System </h3>", unsafe_allow_html=True)
 page = st.sidebar.radio(
     "Navigation",
     ["Home", "Register", "Manage Records", "About"]
